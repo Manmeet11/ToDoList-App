@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.blue {
+    color: lightblue;
+    font-size: 1rem;
+}
+
+.green {
+    color: lightgreen;
+    font-size: 1rem;
+}
+
+.red {
+    color: rgb(240, 119, 119);
+    font-size: 1rem;
+}
+
+.list {
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: royalblue;
+}
+
+.input {
+    width: 85%;
+    height: 100%;
+    outline: none;
+    border-radius: 1.2rem;
+    border: 3px solid black;
+    margin-top: 6.5rem;
+    margin-left: 4rem;
+    margin-right: 0.5rem;
+    font-size: 17px;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.bt {
+    /* width: 80px;
+    height: 100%; 
+    color: black;
+    margin-left: 5px;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 3px; */
+    margin-top: 6.5rem;
+    margin-right: 1rem;
+    background: #1802da;
+    margin-left: 1rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.bts {
+    /* width: 80px;
+    height: 100%; 
+    color: black;
+    margin-left: 5px;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 3px; */
+    margin-top: 6.5rem;
+    margin-right: 1rem;
+    background: #1802da;
+    margin-left: 1rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+body {
+    background: #967AA1;
+}
+
+h3 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blue;
+    color: white;
+    font-size: 5rem;
+    margin-top: 8rem;
+    margin-bottom: -4rem;
+    margin-left: 2rem;
+}
