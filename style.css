@@ -71,7 +71,7 @@
 }
 
 body {
-    background: #967AA1;
+    background-image: repeating-radial-gradient(circle,white,blue);
 }
 
 h3 {
