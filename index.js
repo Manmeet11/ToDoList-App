@@ -60,6 +60,13 @@ done.onclick = () => {
     })
 }*/
 
+function doneTask(iTask) {
+    let getLocalStorageData = localStorage.getItem("items");
+    toDoItems = JSON.parse(getLocalStorageData);
+    const dy = document.getElementById("bi=check2-square");
+    dy.style.textDecorationLine = "line-through";
+}
+
 function deleteTask(indexTask) {
     let getLocalStorageData = localStorage.getItem("items");
     toDoItems = JSON.parse(getLocalStorageData);
