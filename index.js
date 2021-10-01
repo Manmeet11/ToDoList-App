@@ -66,14 +66,6 @@ function doneTask(iTask) {
     dy.style.textDecorationLine = "line-through";
 }
 
-function deleteTask(indexTask) {
-    let getLocalStorageData = localStorage.getItem("items");
-    toDoItems = JSON.parse(getLocalStorageData);
-    toDoItems.splice(indexTask, 1);
-    localStorage.setItem("items", JSON.stringify(toDoItems)); //transforming js object into a json string
-    getList(toDoItems);
-}
-
 function clearStrg() {
     localStorage.clear();
 }
