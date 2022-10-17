@@ -19,7 +19,8 @@
 }
 
 .btn:hover {
-    background-color: royalblue;
+    background-color:royalblue;
+
 }
 
 .input {
@@ -71,7 +72,7 @@
 }
 
 body {
-    background: #a17a95;
+    background: #000000;
 }
 
 h3 {
